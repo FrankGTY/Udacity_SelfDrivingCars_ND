@@ -57,9 +57,12 @@ integration will increase the overshoot of the system and even make the system
 oscillate. Moreover, the introduction of integral coefficient will reduce the response
 speed of the system.
 ### Simulation result
-[![Test video](https://viewsjgdpiwcxq.cn1-udacity-student-workspaces.com/files/home/workspace/CarND-PID-Control-Project/video/1.mp4)]
-[![Test video](https://viewsjgdpiwcxq.cn1-udacity-student-workspaces.com/files/home/workspace/CarND-PID-Control-Project/video/2.mp4)]
-[![Test video](https://viewsjgdpiwcxq.cn1-udacity-student-workspaces.com/files/home/workspace/CarND-PID-Control-Project/video/3.mp4)]
+1. PID(0.1,0.001,0)
+[![Test video](https://github.com/FrankGTY/Udacity_SelfDrivingCars_ND/blob/master/CarND-PID-Control-Project/video/1.mp4)]
+2. PID(0.15,0.004,2)
+[![Test video](https://github.com/FrankGTY/Udacity_SelfDrivingCars_ND/blob/master/CarND-PID-Control-Project/video/2.mp4)]
+3. PID(0.15,0.0005,2.5)
+[![Test video](https://github.com/FrankGTY/Udacity_SelfDrivingCars_ND/blob/master/CarND-PID-Control-Project/video/3.mp4)]
 ### Future Improvements
 - Adjust throttle to be controlled by the cross track error so that the vehicle can run faster
 - Try to automatically tune gains by using twiddle algorithm
